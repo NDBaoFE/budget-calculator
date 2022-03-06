@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Title</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="hero-container">
+                <h1>BUDGET CALCULATOR</h1>
+            </div>
+            <h1 id="remain">5000</h1>
+            <h4 id="day-remains"> “Wealth is the ability to fully experience life.” — Henry David Thoreau</h4>
+            <!-- form -->
+            <form class="spend-form">
+                <p class="alert"></p>
+                <h3>These are things you spend through out this month</h3>
+                <div class="form-control">
+                  <input type="text" id="name" placeholder="quy phong.." />
+                  <input type="number" id="price" placeholder=" 2 ty" />
+                    <button type="submit" class="submit-btn">submit</button>
+                </div>
+            </form>
+
+            <div class="spending-list">
+                <!-- <div class="spend-item">
+                    <h2 class="item-name">Renting</h2>
+                    <h2 class="item-price">2000k</h2>
+                    <button class="delete-btn">
+                        <i class="fa-solid fa-delete-left"></i>
+                    </button>
+                </div>
+                <div class="spend-item">
+                    <h2 class="item-name">an sang</h2>
+                    <h2 class="item-price">30k</h2>
+                    <button class="delete-btn">
+                        <i class="fa-solid fa-delete-left"></i>
+                    </button>
+                </div> -->
+
+            </div>
+            <button class="clear-btn">clear items</button>  
+        </div>
+    </body>
+</html>
